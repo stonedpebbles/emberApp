@@ -5,8 +5,9 @@ const Router = Ember.Router.extend({
   location: config.locationType,
   rootURL: config.rootURL
 });
-
-Router.map(function() {
-});
+//
+// Router.map(function() {
+//   this.route('pathnewBlog');
+// });
 
 export default Router;
